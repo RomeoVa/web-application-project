@@ -1,13 +1,13 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./sb-admin-2";
 
-$caso1: 640px;
+$caso1: 580px;
 $caso2: 1024px;
 
 
 @media (max-width: #{$caso1}) {
   .ghost{
-    visibility: hidden;
+    display: none;
   }
 
 }
