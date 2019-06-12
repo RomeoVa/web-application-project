@@ -1,1 +1,25 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./sb-admin-2";
+
+$caso1: 640px;
+$caso2: 1024px;
+
+
+@media (max-width: #{$caso1}) {
+  .ghost{
+    visibility: hidden;
+  }
+
+}
+
+@media (min-width: #{$caso1+1}) and (max-width: #{$caso2}) {
+  .ghost{
+    visibility: visible;
+  }
+}
+
+@media (min-width: #{$caso2+1}) {
+  .ghost{
+    visibility: visible;
+  }
+}
