@@ -1,1 +1,30 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.factura-table{
+  padding: 10px;
+}
+div{
+  margin-bottom: 20px;
+
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.btnFactura{
+  width: 100%;
+  height: 100%;
+
+}
